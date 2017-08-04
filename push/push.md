@@ -11,6 +11,7 @@
 1. `git push origin my-changes`
 1. Create a Pull Request
 1. Verify your branch builds correctly
+1. A wiki admin will merge your request
 
 !SLIDE center subsection
 
