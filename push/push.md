@@ -12,3 +12,8 @@
 1. Create a Pull Request
 1. Verify your branch builds correctly
 
+!SLIDE center subsection
+
+# Go view the wiki!
+
+# [wiki.psadmin.io](http://wiki.psadmin.io)

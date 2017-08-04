@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato|Roboto');
+
+body {
+  background-color: white;
+}
+
+#preso,
+.slide {
+    width: 1280px !important;
+    height: 800px !important;
+}
+.content {
+  color: #959B99;
+  font-family: 'Lato', sans-serif;
+  font-size: xx-large;
+  background-color: white;
+}
+
+.title {
+  background-color: #1392FE;
+}
+
+.title h1 {
+  color: #959B99 ;
+  font-size: 70px;
+  font-weight: 400;
+  background-color: white;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.subsection {
+  background-color: #1392FE;
+}
+
+.subsection h1 {
+  color: white ;
+}
+
+h1 {
+  color: #1392FE ;
+  font-family: 'Roboto';
+  font-size: 65px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #F37F0A ;
+  font-family: 'Roboto';
+  font-size: 45px;
+  border-bottom: none;
+  padding-left: 10px;
+}
+
+code {
+  border: 1px solid #9d9d9d;
+  border-radius: 4px;
+  font-family: 'Inconsolata', monaco, monospace;
+  color: #595959;
+  font-style: normal;
+  background: #fcfcfc;
+}
+
+.content:not(.cover) h1:not(.section_title) {
+  border-bottom: 0px solid #222;
+}
+
+.psadminlogo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
