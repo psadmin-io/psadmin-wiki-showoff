@@ -1,20 +1,17 @@
 {
   "name": "PS Admin Wiki",
+  "protected": [
+    "presenter",
+    "onepage",
+    "print"
+  ],
+  "user": "dan",
+  "password": "password",
   "sections": [
-    {
-      "section": "intro"
-    },
-    {
-      "section": "clone"
-    },
-    {
-      "section": "add"
-    },
-    {
-      "section": "test"
-    },
-    {
-      "section": "push"
-    }
+    "intro/intro.md",
+    "clone/clone.md",
+    "add/add.md",
+    "test/test.md",
+    "push/push.md"
   ]
 }
