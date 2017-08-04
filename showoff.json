@@ -1,0 +1,20 @@
+{
+  "name": "My Preso",
+  "sections": [
+    {
+      "section": "intro"
+    },
+    {
+      "section": "clone"
+    },
+    {
+      "section": "add"
+    },
+    {
+      "section": "test"
+    },
+    {
+      "section": "push"
+    }
+  ]
+}
