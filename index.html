@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>My Preso</title>
+  <title>PS Admin Wiki</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 
   
 
-  <link rel="stylesheet" type="text/css" href=".//css/highlight/default.css"  />
+  <link rel="stylesheet" type="text/css" href=".//css/highlight/railscasts.css"  />
   <link rel="stylesheet" type="text/css" href=".//css/mermaid-6.0.0.css" />
   <link rel="stylesheet" type="text/css" href=".//css/font-awesome-4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href=".//css/introjs-2.5.local.css">
@@ -39,6 +39,8 @@
   <script type="text/javascript" src=".//js/annotations.js?v=0.19.0"></script>
   <script type="text/javascript" src=".//js/showoff.js?v=0.19.0"></script>
 
+  
+    <link rel="stylesheet" href=".//file/psadmin.css" type="text/css"/>
   
 
   
@@ -377,14 +379,16 @@
 </footer>
 
 <div id="slides" class="offscreen" style="display:none;">
-<div data-section="intro" data-title="00_section" id="intro_00_section1" class="slide center" data-transition="none">
-<div class="content center" ref="intro/00_section:1">
-<h1>The PS Admin Wiki</h1>
+<div data-section="intro" data-title="intro" id="intro_intro1" class="slide center title" data-transition="none">
+<div class="content center title" ref="intro/intro:1">
+<h1>The PeopleSoft Adminstrator Wiki</h1>
+
+<p><img src="./file//_images/psadmin_io_white_400.png" class=" psadminlogo" alt=""></p>
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="intro" data-title="00_section" id="intro_00_section2" class="slide bullets" data-transition="none">
-<div class="content bullets" ref="intro/00_section:2">
+<div data-section="intro" data-title="intro" id="intro_intro2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="intro/intro:2">
 <h1>Why build a wiki</h1>
 
 <ol>
@@ -396,14 +400,14 @@
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="clone" data-title="00_section" id="clone_00_section1" class="slide center subsection" data-transition="none">
-<div class="content center subsection" ref="clone/00_section:1">
+<div data-section="clone" data-title="clone" id="clone_clone1" class="slide center subsection" data-transition="none">
+<div class="content center subsection" ref="clone/clone:1">
 <h1>How to Contribute</h1>
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="clone" data-title="00_section" id="clone_00_section2" class="slide bullets" data-transition="none">
-<div class="content bullets" ref="clone/00_section:2">
+<div data-section="clone" data-title="clone" id="clone_clone2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="clone/clone:2">
 <h1>Clone and Branch</h1>
 
 <ol>
@@ -413,14 +417,14 @@
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="add" data-title="00_section" id="add_00_section1" class="slide center subsection" data-transition="none">
-<div class="content center subsection" ref="add/00_section:1">
+<div data-section="add" data-title="add" id="add_add1" class="slide center subsection" data-transition="none">
+<div class="content center subsection" ref="add/add:1">
 <h1>Add Your Article</h1>
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="add" data-title="00_section" id="add_00_section2" class="slide bullets" data-transition="none">
-<div class="content bullets" ref="add/00_section:2">
+<div data-section="add" data-title="add" id="add_add2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="add/add:2">
 <h1>Add a page</h1>
 
 <ol>
@@ -433,14 +437,33 @@
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="test" data-title="00_section" id="test_00_section1" class="slide center subsection" data-transition="none">
-<div class="content center subsection" ref="test/00_section:1">
+<div data-section="add" data-title="add" id="add_add3" class="slide" data-transition="none">
+<div class="content " ref="add/add:3">
+<h1>Configure Article</h1>
+
+<h2>front-matter</h2>
+
+<pre class="highlight"><code class="language-yaml">---
+title: Sample psft_customizations.yaml
+layout: en
+permalink: /posts/pca/sample_yaml/
+---</code></pre>
+
+<h2>_data/pca.yml</h2>
+
+<pre class="highlight"><code class="language-yaml">Sample psft_customizations.yaml:  "/posts/pca/sample_yaml/"
+DPK Cleanup Process:              "/posts/pca/cleanup/"</code></pre>
+</div>
+<canvas class="annotations"></canvas>
+</div>
+<div data-section="test" data-title="test" id="test_test1" class="slide center subsection" data-transition="none">
+<div class="content center subsection" ref="test/test:1">
 <h1>Test Your Changes</h1>
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="test" data-title="00_section" id="test_00_section2" class="slide bullets" data-transition="none">
-<div class="content bullets" ref="test/00_section:2">
+<div data-section="test" data-title="test" id="test_test2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="test/test:2">
 <h1>Run Jekyll Locally</h1>
 
 <p>Test your new article by browsing the wiki locally.</p>
@@ -454,14 +477,14 @@
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="push" data-title="00_section" id="push_00_section1" class="slide center subsection" data-transition="none">
-<div class="content center subsection" ref="push/00_section:1">
+<div data-section="push" data-title="push" id="push_push1" class="slide center subsection" data-transition="none">
+<div class="content center subsection" ref="push/push:1">
 <h1>Publishing Your Changes</h1>
 </div>
 <canvas class="annotations"></canvas>
 </div>
-<div data-section="push" data-title="00_section" id="push_00_section2" class="slide bullets" data-transition="none">
-<div class="content bullets" ref="push/00_section:2">
+<div data-section="push" data-title="push" id="push_push2" class="slide bullets" data-transition="none">
+<div class="content bullets" ref="push/push:2">
 <h1>Push and Pull</h1>
 
 <ol>
@@ -471,6 +494,14 @@
 <li>Create a Pull Request</li>
 <li>Verify your branch builds correctly</li>
 </ol>
+</div>
+<canvas class="annotations"></canvas>
+</div>
+<div data-section="push" data-title="push" id="push_push3" class="slide center subsection" data-transition="none">
+<div class="content center subsection" ref="push/push:3">
+<h1>Go view the wiki!</h1>
+
+<h1><a href="http://wiki.psadmin.io">wiki.psadmin.io</a></h1>
 </div>
 <canvas class="annotations"></canvas>
 </div>
