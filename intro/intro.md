@@ -1,4 +1,4 @@
-!SLIDE center title
+!SLIDE title center
 
 # The PeopleSoft Adminstrator Wiki
 
@@ -12,4 +12,3 @@
 1. Build a community repo of documentation
 1. Easily share short tips/tricks with a large audience
 1. Learn Git
-

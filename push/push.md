@@ -1,4 +1,4 @@
-!SLIDE center subsection
+!SLIDE center subsection grey
 
 # Publishing Your Changes
 

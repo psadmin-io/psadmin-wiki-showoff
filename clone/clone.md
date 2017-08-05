@@ -1,4 +1,4 @@
-!SLIDE center subsection
+!SLIDE center subsection black
 
 # How to Contribute
 
