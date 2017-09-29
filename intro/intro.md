@@ -1,6 +1,6 @@
 !SLIDE title center
 
-# The PeopleSoft Adminstrator Wiki
+# The PeopleSoft Administrator Wiki
 
 ![.psadminlogo psadmin.io Logo](../_images/psadmin_io_white_400.png)
 
